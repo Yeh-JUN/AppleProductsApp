@@ -1,0 +1,82 @@
+.container{
+    margin: 0 auto;
+}
+
+.row{
+    display: none;
+}
+
+nav{
+    text-align: center;
+    margin: 10px 0 30px;
+}
+
+.mac-pic{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.col{
+    margin-bottom: 15px;
+}
+.color-circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.item-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 把.item下面元素的事件都關閉 */
+.item *{
+    pointer-events: none;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 4px;
+    max-width: 120px;
+    margin: 10px 10px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: all .2s;
+    
+}
+
+.item:active{
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #fff;
+}
+
+.item span{
+    padding: 5px 0;
+    
+}
+
+.gb-text{
+    font-weight: bolder;
+}
+
+.color-text{
+    font-weight: 700;
+    font-size: 18px;
+    /* color: #343a40; */
+}
+
